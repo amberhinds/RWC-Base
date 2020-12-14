@@ -1,0 +1,152 @@
+// Base Colors
+$white: #fff;
+$black: #000;
+$dark-grey: #333;
+$mid-grey: #777;
+$light-grey: #ddd;
+$blue: #0073e5;
+$lighter-grey: #eee;
+$lightest-grey: #f5f5f5;
+
+// Gutenberg color options
+// -- see editor-color-palette in config/editor-color-palette.php
+$colors: (
+	'dark-gray' 	: $dark-grey,
+	'medium-gray' : $mid-grey,
+	'light-gray' 	: $light-grey,
+	'black' 	    : $black,
+	'white' 		  : $white,
+);
+
+// Overlay
+$overlay: rgba($black, 0.5);
+
+// Base Fonts
+$base-font: "Source Sans Pro", sans-serif;
+
+// Screen widths, Media queries - WC widths in WC variables
+$large-screen-width: 1140px;
+$standard-screen-width: 960px;
+$medium-screen-width: 768px;
+$small-screen-width: 600px;
+
+// Content
+$content-width: 1140px;
+
+// Grid
+$grid-width: 1200px;
+$grid-gap: 30px;
+
+// Border styles
+$border-width: 1px;
+$border-style: solid;
+$border-color: $lighter-grey;
+
+// Box Shadow
+$box-shadow-blur-radius: 20px;
+$box-shadow-opacity: 0.05;
+
+// Font sizes
+$body--font-size: 18px;
+$h1--font-size: 30px;
+$h2--font-size: 27px;
+$h3--font-size: 24px;
+$h4--font-size: 20px;
+$h5--font-size: 18px;
+$h6--font-size: 16px;
+$button--font-size: 16px;
+$archive-author-box__entry-title--font-size: 20px;
+$breadcrumb--font-size: 16px;
+$entry-title--font-size: 30px;
+$featured-content__entry-title--font-size: 16px;
+$enews-widget__input--font-size: 16px;
+$site-title--font-size: 20px;
+$genesis-nav-menu--font-size: 15px;
+$genesis-nav-menu__sub-menu__link--font-size: 14px;
+$sidebar--font-size: 16px;
+$entry-content__caption--font-size: 14px;
+$entry-meta--font-size: 16px;
+$comments--font-size: 18px;
+$footer-widgets--font-size: 18px;
+$site-footer--font-size: 15px;
+$forms--font-size: 18px;
+$widget-title--font-size: 18px;
+$archive-pagination--font-size: 16px;
+$blockquote__before--font-size: 30px;
+$after-entry__breadcrumb--font-size: 16px;
+
+// Font families
+$body--font-family: $base-font;
+$headings--font-family: $base-font;
+
+// Font weights
+$font-weight--regular: 400;
+$font-weight--semibold: 600;
+$font-weight--bold: 700;
+
+// Line heights
+$line-height--big: 20px;
+$line-height--larger: 2;
+$line-height--large: 1.75;
+$line-height--normal: 1.625;
+$line-height--medium: 1.5;
+$line-height--medium-small: 1.4;
+$line-height--small: 1.2;
+$line-height--smaller: 1;
+
+// Font colors
+$body--font-color: $dark-grey;
+$link--font-color: $blue;
+$link--font-color-hover: $dark-grey;
+$button--font-color: $white;
+$button--font-color-hover: $white;
+$entry-title__link--font-color: $dark-grey;
+$entry-title__link--font-color-hover: $blue;
+$site-title__link--font-color: $dark-grey;
+$genesis-nav-menu--font-color: $dark-grey;
+$genesis-nav-menu--font-color-hover: $blue;
+$menu-toggle--font-color: $dark-grey;
+$menu-toggle--font-color-hover: $blue;
+$sub-menu-toggle--font-color: $dark-grey;
+$sub-menu-toggle--font-color-hover: $blue;
+$menu-highlight__link--font-color: $white;
+$menu-highlight__link--font-color-hover: $white;
+$sidebar__widget-title--font-color: $dark-grey;
+$forms--font-color: $dark-grey;
+$archive-pagination--font-color: $dark-grey;
+$archive-pagination--font-color-hover: $white;
+$gs-faq__question--font-color: $dark-grey;
+$gs-faq__question--font-color-hover: $blue;
+$disabled--font-color: $mid-grey;
+
+// Background colors
+$body--background-color: $white;
+$site-header--background-color: $white;
+$mark--background-color: $light-grey;
+$button--background-color: $dark-grey;
+$button--background-color-hover: $blue;
+$genesis-nav-menu__sub-menu__link--background-color: $white;
+$footer-widgets--background-color: $white;
+$menu-highlight__link--background-color: $dark-grey;
+$menu-highlight__link--background-color-hover: $blue;
+$forms__background-color: $white;
+$sticky--background-color: $lightest-grey;
+$author-box--background-color: $lightest-grey;
+$code--background-color: $lightest-grey;
+$archive-pagination--background-color: $lightest-grey;
+$archive-pagination--background-color-hover: $dark-grey;
+$enews__sidebar--background-color: $lightest-grey;
+$disabled--background-color: $lighter-grey;
+
+// Gutenberg
+$has-small-font-size--font-size: 12px;
+$has-regular-font-size--font-size: 16px;
+$has-large-font-size--font-size: 20px;
+$has-larger-font-size--font-size: 24px;
+$wp-block-cover-text--font-size: 48px;
+$wp-block-quote--font-size: 21px;
+$wp-block-quote__is-style-large--font-size: 32px;
+$wp-block-pullquote__is-style-solid-color--font-size: 42px;
+$wp-block-quote__cite--font-size: 16px;
+$figcaption--font-size: 16px;
+$wp-block-verse--font-size: 16px;

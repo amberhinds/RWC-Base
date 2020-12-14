@@ -1,0 +1,1 @@
+wp.domReady(function(){wp.blocks.unregisterBlockStyle("core/button","default"),wp.blocks.unregisterBlockStyle("core/button","outline"),wp.blocks.unregisterBlockStyle("core/button","squared"),wp.blocks.registerBlockStyle("core/button",{name:"default",label:"Default",isDefault:!0}),wp.blocks.registerBlockStyle("core/button",{name:"full-width",label:"Full Width",isDefault:!1})});

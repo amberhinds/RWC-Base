@@ -1,0 +1,78 @@
+/*!
+	Theme Name:  RWC Base
+	Theme URI:   https://roadwarriorcreative.com/
+	Description: This theme was coded for [Client] by Road Warrior Creative.
+	Author:      Road Warrior Creative
+	Author URI:  https://roadwarriorcreative.com/
+	Version:     1.0.0
+	License:     GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Template:    genesis
+*/
+
+/*! Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+	- Accessibility
+		- Screen Reader Text
+		- Skip Links
+- Structure and Layout
+	- Site Container
+	- Site Inner
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Genesis Simple FAQ
+- Site Header
+	- Title Area
+- Site Navigation
+	- Responsive Menu
+	- Header Menu
+	- Footer Menu
+- Content Area
+	- Entry Content
+	- Entry Meta
+	- Pagination
+	- Entry Comments
+- Sidebar
+- Footer Widgets
+- Site Footer
+- Custom Styles
+- Homepage Styles
+- Print Styles
+*/
+
+@import "modules/helpers";
+@import "partials/variables";
+@import "partials/resets";
+@import "partials/defaults";
+@import "partials/structure";
+@import "partials/common-classes";
+@import "partials/widgets";
+@import "partials/plugins";
+@import "partials/header";
+@import "partials/hero";
+@import "partials/menu";
+@import "partials/content-area";
+@import "partials/sidebar";
+@import "partials/footer-area";
+@import "partials/custom";
+@import "partials/home";
+@import "partials/print";
+@import "partials/blocks";

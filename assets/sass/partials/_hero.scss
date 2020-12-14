@@ -1,0 +1,65 @@
+/* Hero Section
+--------------------------------------------- */
+
+.hero-section {
+	position: relative;
+	padding: 4rem 30px;
+	background-color: $black;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	margin-left: calc(-100vw / 2 + 100% / 2);
+	margin-right: calc(-100vw / 2 + 100% / 2);
+	max-width: 100vw;
+	@include overlay;
+	@include breakpoint(sm) {
+		padding: 6rem 0;
+	}
+	@include breakpoint(md) {
+		padding: 8rem 0;
+	}
+	margin-bottom: 30px;
+	@media only screen and (min-width: $standard-screen-width) {
+		margin-bottom: 60px;
+	}
+	.blog &,
+	.archive &,
+	.search-results & {
+		.wrap {
+			@include breakpoint(sm) {
+				padding-bottom: 0;
+			}
+		}
+	}
+
+	.wrap {
+		position: relative;
+		z-index: 2;
+		@include breakpoint(sm) {
+			max-width: $content-width;
+			margin: auto;
+		}
+	}
+
+	h1 {
+		width: 100%;
+		margin: 0 auto;
+		color: $white;
+		text-align: center;
+	}
+
+	p {
+		width: 100%;
+		max-width: $small-screen-width;
+		margin: 0.5em auto 0;
+		color: $white;
+		text-align: center;
+	}
+
+	a {
+		color: $white;
+		&:hover, &:focus{
+			color: $blue;
+		}
+	}
+}
